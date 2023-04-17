@@ -11,7 +11,7 @@ for line in sys.stdin:
    # we have to be able to deal with missing values
    if value =="NA":
        continue
-   value = int(value)
+   value = Float(value)
    # if this is the first iteration
    if not last_key:
        last_key = key
