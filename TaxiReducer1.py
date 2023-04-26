@@ -2,7 +2,7 @@
 import sys
 last_key = None
 count = 0
-sum = 1
+sum = 1.0
 min = 0
 max = 0
 # keys come grouped together  so we need to keep track of state a little bit thus when the key changes , we need to reset
