@@ -44,4 +44,4 @@ for line in sys.stdin:
         count = 1
         sum = value
 # this is to catch the final value that we output
-print("\t".join(str(v) for v in [last_key, avg,min,max]))
+print("\t".join(str(v) for v in [last_key, avg,min_val,max_val]))
